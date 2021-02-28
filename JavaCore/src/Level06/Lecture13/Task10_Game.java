@@ -65,7 +65,6 @@ public class Task10_Game {
         @Override
         public void run() {
             //add your code here
-            int i = 0;
             try {
                 for (String step : OnlineGame.steps) {
                     System.out.println(getName() + ": " + step);
